@@ -1,0 +1,68 @@
+<html>
+<head>
+      
+         <link href="files/bootstrap.css" rel="stylesheet">
+       <script type="text/javascript" src="files/jquery.js"></script>   
+<script type="text/javascript" src="files/bootstrap.js"></script>   
+   
+
+</head>
+
+<body>
+
+<div style="margin: 20px;">
+
+
+
+<div class="container" style="padding: 100px 50px 10px;" >
+   <button type="button" class="btn btn-default" title="Popover title"  
+      data-container="body" data-toggle="popover" data-placement="left" 
+      data-content="Some content in Popover on left">
+      Popover on left
+   </button>
+   <button type="button" class="btn btn-primary" title="Popover title"  
+      data-container="body" data-toggle="popover" data-placement="top" 
+      data-content="Some content in Popover on top">
+      Popover on top
+   </button>
+   <button type="button" class="btn btn-success" title="Popover title"  
+      data-container="body" data-toggle="popover" data-placement="bottom" 
+      data-content="Some content in Popover on bottom">
+      Popover on bottom
+   </button>
+   <button type="button" class="btn btn-warning" title="Popover title"  
+      data-container="body" data-toggle="popover" data-placement="right" 
+      data-content="Some content in Popover on right">
+      Popover on right
+   </button>
+   </div>
+
+   <script>$(function () 
+      { $("[data-toggle='popover']").popover();
+      });
+   </script>
+
+
+
+<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo">
+  simple collapsible
+</button>
+
+<div id="demo" class="collapse out">sdsdjs ds dks dksdsd sd sdjsd sjd s</div>
+
+
+
+   
+</div>
+
+
+</body>
+
+
+</html>
+
+
+
+
+
+
